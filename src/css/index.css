@@ -1,0 +1,260 @@
+* {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D8DFE8;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1052px) {
+    main {
+      flex-direction: column;
+      gap: 50px;
+    }
+  }
+
+#sectionTexto {
+    height: 756px;
+    padding: 32px;
+}
+
+@media (max-width: 1002px) {
+    #sectionTexto {
+      width: 100%;
+    }
+  }
+
+
+#areaTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 170px;
+    gap: 5px;
+}
+
+@media (max-width: 737px) {
+    #areaTexto {
+      margin-top: 50px;
+    }
+}
+
+.logo {
+    width: 31px;
+    height: 48px;
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+#texto {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 32px;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.textoAviso {
+    display: flex;
+    flex-direction: start;
+    align-items: center;
+    width: 90%;
+    margin-top: 100px;
+    gap: 3px;
+}
+
+@media (max-width: 737px) {
+    .textoAviso {
+      justify-content: center;
+    }
+}
+
+.aviso {
+    white-space: nowrap;
+}
+
+.buttons {
+    display: flex;
+    width: 90%;
+    gap: 24px;   
+}
+
+@media (max-width: 737px) {
+    .buttons {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+
+.buttonCripto {
+    background-color: #0A3871;
+    color: white;
+    width: 20rem;
+    padding: 15px;
+    border-radius: 24px;
+    font-size: 16px;
+    border: #0A3871;
+}
+
+
+.buttonCripto:active {
+    transform: translateY(10px);
+}
+
+.buttonDescripto {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    width: 20rem;
+    padding: 15px;
+    border-radius: 24px;
+    font-size: 16px;
+    border: solid 1px #0A3871;
+}
+
+.buttonDescripto:active {
+    transform: translateY(10px);
+}
+
+#sectionResultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 692px;
+    width: 400px;
+    padding: 32px;
+    background-color: white;
+    border-radius: 32px;
+    text-align: center;
+}
+
+@media (max-width: 1052px) {
+    #sectionResultado {
+      height: 300px;
+    }
+  }
+
+@media (max-width: 1156px) {
+    #sectionResultado {
+      width: 240px;
+    }
+  }
+
+  @media (max-width: 1074px) {
+    #sectionResultado {
+      width: 220px;
+    }
+  }
+
+  @media (max-width: 1052px) {
+    #sectionResultado {
+      width: 100%;
+    }
+  }
+
+#resultadoP {
+    flex-wrap: wrap;
+    width: 400px;
+    color: var(--Gray-gray-400, #495057);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    word-wrap: break-word;
+}
+#imgnotmessage {
+    height: 300px;
+    width: 300px;
+}
+
+@media (max-width: 1052px) {
+    #imgnotmessage {
+      display: none;
+    }
+  }
+
+.semMensagem {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--Gray-gray-500, #343A40);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+.criptoMensagem {
+    color: var(--Gray-gray-400, #495057);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    
+}
+
+#buttonCopiar {
+    background-color: white;
+    color: #0A3871;
+    width: 304px;
+    padding: 15px;
+    margin-top: 150px;
+    border-radius: 24px;
+    align-items: flex-start;
+    font-size: 16px;
+    border: solid 1px #0A3871;
+}
+
+@media (max-width: 1156px) {
+    #buttonCopiar {
+      width: 250px;
+    }
+}
+
+@media (max-width: 1052px) {
+    #buttonCopiar {
+      width: 304px;
+    }
+}
+
+@media (max-width: 430px) {
+    #buttonCopiar {
+      width: 250px;
+    }
+}
+
+
+#buttonCopiar:active {
+    transform: translateY(10px);
+}
+
+.notvisible {
+    display: none;
+}
+
+.error {
+    color: red;
+}
