@@ -222,6 +222,10 @@ main {
     border: solid 1px #0A3871;
 }
 
+#buttonCopiar:active {
+    transform: translateY(10px);
+}
+
 @media (max-width: 1156px) {
     #buttonCopiar {
       width: 250px;
@@ -240,15 +244,44 @@ main {
     }
 }
 
-
-#buttonCopiar:active {
-    transform: translateY(10px);
-}
-
 .notvisible {
     display: none;
 }
 
 .error {
     color: red;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.contato {
+    display: flex;
+    gap: 10px;
+}
+
+footer hr {
+    width: 70%;
+    border-color: #0A3871;
+    opacity: 0.4;
+    margin: 10px auto;
+}
+
+.imgGit {
+    width: 25px;
+    height: 25px;
+}
+
+.imgLinkedin {
+    width: 25px;
+    height: 25px;
+}
+
+.textoFooter {
+    color: #0A3871;
 }
